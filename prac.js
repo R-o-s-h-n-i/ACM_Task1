@@ -1,0 +1,22 @@
+gsap.from(".header",{
+    duration:2,y:'100vw',opacity:-2
+})
+
+gsap.from('.ryt',{
+    duration:2,x:'-100vw',opacity:-2
+})
+gsap.from('.left',{
+    duration:2,opacity:-1,x:'100vw'
+})
+gsap.from('.footer',{
+    duration:2,y:'-100vw',opacity:-2
+})
+gsap.from('.img',{
+    duration:2,opacity:-1,delay:1
+})
+gsap.from('.up',{
+    duration:2,y:'-50vw',opacity:-1,delay:2
+})
+gsap.from('.down',{
+    duration:2,y:'100vw',opacity:-1,delay:3
+})
